@@ -1,6 +1,6 @@
 PREFIX?=/usr/local
-BINDIR=${PREFIX}/bin
-MANDIR= ${PREFIX}/man/cat
+BINDIR=${PREFIX}/sbin
+MANDIR= ${PREFIX}/man/man
 
 PROG=	mdnsd
 SRCS=	log.c mdnsd.c kiface.c interface.c packet.c \
